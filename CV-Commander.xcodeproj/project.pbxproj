@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74E30C362BA6F91600477B83 /* CV_CommanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E30C352BA6F91600477B83 /* CV_CommanderApp.swift */; };
+		74E30C362BA6F91600477B83 /* NexusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E30C352BA6F91600477B83 /* NexusApp.swift */; };
 		74E30C382BA6F91600477B83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E30C372BA6F91600477B83 /* ContentView.swift */; };
 		74E30C3A2BA6F91600477B83 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E30C392BA6F91600477B83 /* Item.swift */; };
 		74E30C3C2BA6F91600477B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E30C3B2BA6F91600477B83 /* Assets.xcassets */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		74E30C322BA6F91600477B83 /* CV-Commander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CV-Commander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74E30C352BA6F91600477B83 /* CV_CommanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_CommanderApp.swift; sourceTree = "<group>"; };
+		74E30C352BA6F91600477B83 /* NexusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexusApp.swift; sourceTree = "<group>"; };
 		74E30C372BA6F91600477B83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74E30C392BA6F91600477B83 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		74E30C3B2BA6F91600477B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		74E30C342BA6F91600477B83 /* CV-Commander */ = {
 			isa = PBXGroup;
 			children = (
-				74E30C352BA6F91600477B83 /* CV_CommanderApp.swift */,
+				74E30C352BA6F91600477B83 /* NexusApp.swift */,
 				74E30C372BA6F91600477B83 /* ContentView.swift */,
 				74E30C392BA6F91600477B83 /* Item.swift */,
 				74E30C3B2BA6F91600477B83 /* Assets.xcassets */,
@@ -144,7 +144,7 @@
 			files = (
 				74E30C382BA6F91600477B83 /* ContentView.swift in Sources */,
 				74E30C3A2BA6F91600477B83 /* Item.swift in Sources */,
-				74E30C362BA6F91600477B83 /* CV_CommanderApp.swift in Sources */,
+				74E30C362BA6F91600477B83 /* NexusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "recognize speech";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -311,7 +314,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "recognize speech";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
